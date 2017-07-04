@@ -1,0 +1,27 @@
+<template name="viewsc">
+
+    <!-- Views -->
+    <div class="views">
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+            <!-- Panels Overlay -->
+            <div class="panel-overlay"></div>
+
+            <!-- Right Panel with Cover effect -->
+            <div id="menu-right" class="panel panel-right panel-cover">
+                <div class="content-block">
+                    <p>MENU</p>
+                    <p><a href="#" data-page="single">Pagina Singola</a></p>
+                </div>
+            </div>
+
+            <!-- Pages -->
+            <div class="pages">
+                {{> single }}
+                {{> home }}
+            </div>
+        </div>
+    </div>
+
+</template>
